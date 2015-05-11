@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Calculatrice:  Fichier source de C:/Users/Administrateur/Documents/UTC/GI01/LO21/Rendu/CodeSource/Calculatrice.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Calculatrice
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Calculatrice à notation polonaise inverse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fonctions</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d522931ffa1371640980b621734a4381.html">Users</a></li><li class="navelem"><a class="el" href="dir_6f2f5ccaa2c07a22d3888235841b7b5e.html">Administrateur</a></li><li class="navelem"><a class="el" href="dir_486a210f6b65dfc30600b8feee1247f0.html">Documents</a></li><li class="navelem"><a class="el" href="dir_6aae92551042274a4c32af7784432c3d.html">UTC</a></li><li class="navelem"><a class="el" href="dir_bad449c920f4d6b9f59afe44ab27883f.html">GI01</a></li><li class="navelem"><a class="el" href="dir_724aee4b559a576dada4aa60861db962.html">LO21</a></li><li class="navelem"><a class="el" href="dir_a696500b9e7881e7558b0be814e36844.html">Rendu</a></li><li class="navelem"><a class="el" href="dir_5e4fb6f5175abd4a8dae84d34fbe0544.html">CodeSource</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Calculatrice.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;﻿#ifndef CALCULATRICE_H</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CALCULATRICE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifndef TYPECONSTANTE</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TYPECONSTANTE</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="keyword">typedef</span> <span class="keyword">enum</span> tc {entier, rationnel, reel} TypeConstante;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;QStack&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;Qstring&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;Constantes/Constante.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;Constantes/Complexe.h&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;Constantes/Pile.h&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;QStringList&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="class_calculatrice.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_calculatrice.html" title="Fonctionnement de la Calculatrice.">Calculatrice</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    QVector&lt;Pile*&gt; _pile;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">bool</span> _typeComplexe;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">bool</span> _typeDegre; <span class="comment">//0:degré, 1:radiant</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    TypeConstante _typeConst; <span class="comment">// A l&#39;affichage</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _indexSwapStart;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _indexSwapEnd;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _nbSum;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _nbMean;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _nbAffichage;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _currentIndexHist;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_calculatrice.html#a2ea384e7ebfa1850b91a16ef81ea6b78">Calculatrice</a>(<span class="keywordtype">bool</span> typeComplexe = <span class="keyword">false</span>, <span class="keywordtype">bool</span> typeDegre = <span class="keyword">false</span>, TypeConstante typeConst = reel, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> swapS = 0, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> swapE = 1,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#a309d08c10ce8bb68c0acb9492370a44a">sum</a> = 2, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> mean = 2, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> affiche=10, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> currentIndexHist=0);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_calculatrice.html#a060473f08e173777f852362cf3693e34">getTypeComplexe</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a1982f3bbe9bc8d5191e25345be78fada">setTypeComplexe</a>(<span class="keywordtype">bool</span> val);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_calculatrice.html#abb44850691c9d4d1ffdfcc779c28f075">getTypeDegre</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a573b8b14c168dfd2853bcd96513217fc">setTypeDegre</a>(<span class="keywordtype">bool</span> val);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    TypeConstante <a class="code" href="class_calculatrice.html#afc7a85583a0334744cf135a5cb407325">getTypeConstante</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a8e49bfdd64f041e8ce3cd5c81ec33aff">setIndexSwap</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> a,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> b);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a16459f3551721cda4d7029cbd5a410f0">setSum</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> a);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#acc54185fd5a14eb0dd09b874f0afde78">setMean</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> a);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a9c77619535acfd9cf141f477b4901fcc">setAffichage</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> a);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a6a6276c41270fb958e848685b7cf124d">at</a>(<span class="keywordtype">int</span> i) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#a8cff10b27c6df9e207579ac149684f82">getSwapStart</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#a23857d5c2c0f391afef68dda1e80e630">getSwapEnd</a>() <span class="keyword">const</span> ;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#aaa5fd0e2136de020c3eb5c4ad5a5a4ab">getSum</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#ada5e5dbe8ba246697df9b66482b32aab">getMean</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#ae3fa68b635f2e6af96cdd94acf9f73f4">getAffichage</a> () <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#acfcefd4059ed9bb33a147085bcb29f8c">setTypeConstante</a>(TypeConstante type);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    QStringList <a class="code" href="class_calculatrice.html#acd96be3b14e0f43a0d646657c8381c19">getPileSauvegardeToString</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a99dd9efdc162667b3699d8171fa563aa">deletePile</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a1048380f15e34d8de79c471c4f0a7a5d">push</a>(<a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a> * c);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#aa2b8c95e190606fe6e8fe728778e9aa4">newPile</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#af6254d834fbaf227403267ff17ef46fa">deleteLastPile</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#adf634be880d7e17597ff42755bff04b3">operationBinaire</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a531ef40ffa3bceb4940d1a44c6a8bfe8">operationUnaire</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a691e1a9893647d015b6c9cd2a30967ff">pop</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a> * <a class="code" href="class_calculatrice.html#a3f65b69d363c13e1d880ad2757949d2f">getHistoriqueElement</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;   <span class="comment">// Constante * popHistorique() { return _pileSauvegarde.pop(); }</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_calculatrice.html#a808a715f0d9aff304b67599a9b49e76b">setCurrentIndexHist</a>(<span class="keywordtype">int</span> indice);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">//void pushHistorique(Constante * c) { _pileSauvegarde.push(c);}</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">//int countPileHistorique() const { return _pile.value(_currentIndexHist)-&gt;taille();}</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_calculatrice.html#a34dfa871873cdf3af4129981d49daed6">pileEmpty</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#ac0f8b43e165fb57534529f34e94dc165">getCurrentIndexHist</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_calculatrice.html#a49bff2cf0d52a6935c5f9b5c20ddfae6">countPileElement</a>();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">double</span> <a class="code" href="class_calculatrice.html#a4f73f85e3af3ede605bad590dff99e29">max</a>(<span class="keywordtype">double</span> a, <span class="keywordtype">double</span> b);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a83a3e6b2ca5f7fb5e72904c47b3ef489">moyenne</a>();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a40228e5f2732a1f57f0f381251c8026f">somme</a>();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#aa25be1b172e0c0c1062e2243e7be03e5">duplique</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_calculatrice.html#afac8c147c75ab1eb45f72c36ce5f795e">swap</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a309d08c10ce8bb68c0acb9492370a44a">sum</a>();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a5f84c1a83a406f5850267d60b427330f">minus</a>();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a076a23d2180a4eefee6e28452240a4ab">multiply</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#af67929927cebba5b87e591857d7163f2">div</a>();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a2f98f4ad4ac312d6da10c2f54558aab9">puiss</a>();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a42785902289549df9014c7d579f4f3b8">modul</a>();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#af74d67cd1bb5c4c532ed2dc6a9408cdb">sinu</a>();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a5b3de005eabb9fc7a556dcec2b225e3a">cosin</a>();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a4e23fc79f1977198a96000bba64497c5">tang</a>();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#ab3e8d49ebd625a9607db4fa3b5d29620">sinuh</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a3a4cbda83f45a61cfbe0eb1592f9b80d">cosinh</a>();</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a4c1d79300c2d47a17d446c201e692a6a">tangh</a>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#af92079b5746b631b700bded522a1a9e6">logn</a>();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a1eca82d33f8c1385608dd4cb4502bb44">logd</a>();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a7af25010e6bf84d5a87910008e2f9df3">signe</a>();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a01f663829b409a5aec0be6b174b3764f">inv</a>();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a045b33ed0dbbe8072be70462bf1539a9">racinecarre</a>();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#acbb23759471cf2b94e48f7051ad2b795">sqr</a>();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a50cb69ed146cfba1ef9e99b8413d3e9b">puissancetrois</a>();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="class_constante.html" title="Données manipulées par la calculatrice.">Constante</a>* <a class="code" href="class_calculatrice.html#a9667c0ee6e9ae9936515ac9ee1487bfa">fact</a>();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    ~<a class="code" href="class_calculatrice.html" title="Fonctionnement de la Calculatrice.">Calculatrice</a>(){</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">foreach</span>(<a class="code" href="class_pile.html" title="Pile de calcul.">Pile</a> * p, _pile)</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keyword">delete</span> p;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;};</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#endif // CALCULATRICE_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Samedi Juin 16 2012 17:32:36 pour Calculatrice par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1
+</small></address>
+</body>
+</html>
